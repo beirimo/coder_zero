@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCT" directorySegmentName="seg_0" id="ADCDF5E3-43CE-6CBD-4739-7A314ACEEBEB">
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<schemaObject>DC754794-912C-09C4-8816-CA7C60A6C20A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3962EAF7-2BBE-47D1-9078-E615A6E8886C</segment>
+<tableSpace>1F6A1294-00D1-6410-FF15-EC2679404606</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRICE" id="875576F5-AA4F-3A0E-FF5F-A9C9966AA91B">
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="98D82FF4-6C54-4B60-4A89-2761D35650B5">
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="C85AE0D8-42E8-D914-C561-363D278C4183">
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_PK" id="B8679DB7-2A42-6E01-5836-BE13BA1E9A51">
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:44 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<schemaObject>DC754794-912C-09C4-8816-CA7C60A6C20A</schemaObject>
+<segment>9F629837-8FDA-D7C1-576F-502B25305313</segment>
+<tableSpace>1F6A1294-00D1-6410-FF15-EC2679404606</tableSpace>
+<indexSegment>9F629837-8FDA-D7C1-576F-502B25305313</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

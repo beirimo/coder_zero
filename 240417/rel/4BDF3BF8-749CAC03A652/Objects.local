@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="DC754794-912C-09C4-8816-CA7C60A6C20A" name="PRODUCT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="4BDF3BF8-FA42-A1DC-6D35-749CAC03A652" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="ADCDF5E3-43CE-6CBD-4739-7A314ACEEBEB" name="PRODUCT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="4BDF3BF8-FA42-A1DC-6D35-749CAC03A652" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="52BF4808-A808-628B-9861-5A85E5B38404" name="SALE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="4BDF3BF8-FA42-A1DC-6D35-749CAC03A652" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="AC37BCE8-58A8-89E9-7167-7BFF737C392C" name="SYS_C007003" seqName="seg_0" containerID="52BF4808-A808-628B-9861-5A85E5B38404" refContainerID="ADCDF5E3-43CE-6CBD-4739-7A314ACEEBEB" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="4BDF3BF8-FA42-A1DC-6D35-749CAC03A652" propertySourceId="ADCDF5E3-43CE-6CBD-4739-7A314ACEEBEB" propertyTargetId="52BF4808-A808-628B-9861-5A85E5B38404"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

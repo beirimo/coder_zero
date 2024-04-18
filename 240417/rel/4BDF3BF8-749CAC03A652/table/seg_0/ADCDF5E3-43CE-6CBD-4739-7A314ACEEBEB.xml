@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADCDF5E3-43CE-6CBD-4739-7A314ACEEBEB" schemaObject="DC754794-912C-09C4-8816-CA7C60A6C20A" name="PRODUCT">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="C85AE0D8-42E8-D914-C561-363D278C4183">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="98D82FF4-6C54-4B60-4A89-2761D35650B5">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="875576F5-AA4F-3A0E-FF5F-A9C9966AA91B">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8679DB7-2A42-6E01-5836-BE13BA1E9A51" schemaObject="DC754794-912C-09C4-8816-CA7C60A6C20A" name="PRODUCT_PK">
+<sourceConnName>%EC%83%81%ED%92%88%EA%B4%80%EB%A6%AC</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>SYS_C006997</sourceObjName>
+<createdBy>jay</createdBy>
+<createdTime>2024-04-17 01:56:43 UTC</createdTime>
+<ownerDesignName>240417</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C85AE0D8-42E8-D914-C561-363D278C4183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

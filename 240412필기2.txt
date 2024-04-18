@@ -1,0 +1,22 @@
+jvm   heap
+
+
+class란.
+
+붕어빵틀   = class  같은 것들을 만들 수 있는 
+붕어빵 = object
+
+- size(-1) 하면 마지막걸 가져온다고???
+
+integer를 string을 바꾸려면 
+=>   s3.code=String.valueOf(code);// int -> String 
+
+public boolean checkNumber(//숫자인지 판별할 문자가 여기 와야함=>'String str'가 와야 함) {
+try {
+	int num=Integer.parseInt(str);
+	return true;
+} catch(
+
+catch(Exception e)   try하다가 오류가 나면 catch로 옴()에 
+왜 오류가 났는지 들어가 있음
+
